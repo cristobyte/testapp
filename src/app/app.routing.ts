@@ -7,11 +7,11 @@ import { ProfileComponent } from './profile/profile.component';
 const appRoutes: Routes = [
   {
     path:'',
-    component: HomeComponent
+    component: ProfileComponent
   },
   {
     path:'profile',
-    component: ProfileComponent
+    component: HomeComponent
   }
 ];
 
